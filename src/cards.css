@@ -75,3 +75,11 @@ html {
       flex-shrink: 1;
       flex-basis: auto;
     }
+
+@media (max-width: 425px) {
+  .cardGroup {
+    flex-direction: column;
+    width: 90vw;
+    height: 90vh;
+  }
+}
